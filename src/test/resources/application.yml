@@ -1,0 +1,11 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /
+logging:
+  level:
+    root: debug
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
